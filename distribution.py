@@ -42,8 +42,8 @@ print('The distribution of characters in "'  + txt + '" is: ')
 
 import string
 
-txt = txt.lower("")
-lol = [""]
+txt = txt.lower()
+lol = []
 
 for m in string.ascii_lowercase:
     if txt.count(m)!=-1:
