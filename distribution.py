@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: maBottn14
-Credit: Character distribution on Github: https://github.com/HHS-IntroProgramming/Character-Distribution, Andrew, and Kyle
+Credit: Character distribution on Github: https://github.com/HHS-IntroProgramming/Character-Distribution, Andrew, kyle, and https://www.programiz.com/python-programming/methods/built-in/sorted
 
 Assignment:
 
@@ -38,7 +38,7 @@ Notice about this example:
 """
 
 txt = (str(input("Please enter a string of text (the bigger the better): ")))
-print("The distribution of characters in "  + txt + " is: ")
+print('The distribution of characters in "'  + txt + '" is: ')
 
 import string
 
