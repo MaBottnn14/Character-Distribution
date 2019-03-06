@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: maBottn14
+Credit: Character distribution on Github: https://github.com/HHS-IntroProgramming/Character-Distribution, Andrew, and Kyle
 
 Assignment:
 
@@ -36,3 +36,21 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+
+txt = (str(input("Please enter a string of text (the bigger the better): ")))
+print("The distribution of characters in "  + txt + " is: ")
+
+import string
+
+txt = txt.lower("")
+lol = [""]
+
+for m in string.ascii_lowercase:
+    if txt.count(m)!=-1:
+        lol.append(m * txt.count(m))
+for m in (sorted(sorted(lol), key = len, reverse = True)):
+    print(m)
+    
+    
+    
+    
